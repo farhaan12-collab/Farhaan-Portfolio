@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/2222587923/photo/ai-coding-assistant-for-software-development-concept-machine-learning-code-programmer-use.jpg?b=1&s=612x612&w=0&k=20&c=VhOR2jHUB7AklM8db_0GSR3GOJR9pf1rMQNaLbIHOdI=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    color: beige;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(4, 4, 15, 0.521);
+    border: 7px groove white;
+    padding: 10px;
+}
+
+nav a {
+    color: beige;
+}
+
+nav a:hover {
+    color: gold;
+    transition: 0.7s;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    padding: 50px;
+}
+
+.left {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(247, 245, 243, 0.486);
+}
+
+.right {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(247, 245, 243, 0.486);
+    text-align: center;
+}
+
+.center {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(247, 245, 243, 0.486);
+    text-align: center;
+}
+.left:hover {
+  background-color: gold;
+  transition: 0.7s;
+  text-align: center;
+  font-size: larger;
+}
+.left h1{
+    border-bottom: 2px double red;
+    margin: 5px;
+     text-align: center;
+     font-size: 30px;
+}
+.center h1{
+    border-bottom: 2px double red;
+    margin: 5px;
+}
+.right h1{
+    border-bottom: 2px double red;
+    margin: 5px;
+    
+}
+.center:hover {
+  background-color: gold;
+  transition: 0.7s;
+  text-align: center;
+  font-size: larger;
+}
+
+.right:hover {
+  background-color: gold;
+  transition:0.7s;
+   text-align: center;
+   font-size: larger;
+}
+.hero{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border: 10px groove rgb(1, 71, 28);
+}
+.hero h2{
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero h3{
+    font-size: 28px;
+    color: gold;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.hero p{
+    width: 70%;
+    max-width: 800px;
+    font-size: 30px;
+    line-height: 1.8;
+    color: #f1f1f1;
+}
+.hero:hover h2{
+    color:aqua;
+}
+
+.hero:hover h3{
+    color:gold;
+}
+
+.hero:hover p{
+    color: burlywood;
+}
+footer {
+  background: rgba(219, 215, 215, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer:hover{
+    background-color: rgba(153, 205, 50, 0.61);
+}
+
+footer marquee {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(51, 1, 1);
+}
+
+
